@@ -1,0 +1,76 @@
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .hero_container {
+        flex-direction: row;
+        width: 734px;
+        height: 340px;
+    }
+
+    .hero_img {
+
+        height: 300px;
+        width: 280px;
+        object-fit: cover;
+        margin-bottom: 0;
+        margin-top: 2.6rem;
+    }
+
+    .hero_left {
+        width: 50%;
+        padding: 2rem;
+        color: #dbfdff;
+    }
+
+    .hero_left>h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    /* hero section end */
+    /* Dashboard start */
+    .fixtures_container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+    }
+
+    .fixtures {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: .8rem;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 1rem;
+
+    }
+
+    .card_container {
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 312px;
+        width: 310px;
+    }
+
+    /* dashboard end */
+    /* footer end */
+    .footer_left {
+        display: flex;
+        justify-content: center;
+        padding: 10px 10px;
+        gap: 1rem;
+    }
+
+    .social_icon {
+        display: flex;
+        justify-conten: center;
+
+    }
+}
